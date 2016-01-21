@@ -16,5 +16,5 @@ if __name__=='__main__':
     #打印内存信息
 
     meminfo = meminfo()
-    print 'Total memory: {0}'.format(meminfo['MemTotal'])
-    print 'Free memory: {0}'.format(meminfo['MemFree'])
+    print '内存总量: {0}'.format(meminfo['MemTotal'])
+    print '未使用内存: {0}'.format(meminfo['MemFree'])
